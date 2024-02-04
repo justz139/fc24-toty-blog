@@ -1,0 +1,1 @@
+# fc24-toty-blog
