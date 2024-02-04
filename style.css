@@ -1,0 +1,202 @@
+
+
+h1 {
+    color: gold;
+    text-align: center;
+    font-family: fantasy;
+}
+.fcimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color: gold;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.toty {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p { 
+    text-wrap:balance;
+    font-weight: 900 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+* {
+    background-color: #071952;
+}
+h3 {
+    text-align: center;
+    color: gold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.totymens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.totywomens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace
+}
+.info2{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace
+}
+footer .cpt{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 2rem; 
+    
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .fcimg{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .toty {
+        width: 100%;
+        height: 100%;
+    }
+    .totymens{
+        width: 100%;
+        height: 100%;
+    }
+    .totywomens{
+        width: 100%;
+        height: 100%;
+    }
+    footer .cpt{
+        margin-top: 40px ;
+        text-align: right;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}   
+  
+@media (min-width: 481px) and (max-width: 1200px){
+    h1{
+        font-size: 2rem;
+    
+    }
+    .fcimg{
+        width: 100%;
+        height: 100%;
+    }
+    .toty {
+        width: 100%;
+        height: 100%;
+    }
+    .totymens{
+        width: 100%;
+        height: 100%;
+    }
+    .totywomens{
+        width: 100%;
+        height: 100%;
+    }
+    footer .cpt{
+        margin-top: 30px;
+        text-align: right;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px){
+    h1{
+        font-size: rem;
+    }
+    .fcimg{
+        width: 100%;
+        height: 100%;
+    }
+    .toty {
+        width: 100%;
+        height: 100%;
+    }
+    .totymens{
+        width: 100%;
+        height: 100%;
+    }
+    .totywomens{
+        width: 100%;
+        height: 100%;
+    }
+    footer .cpt{
+        margin-top: 30px;
+        text-align: right;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:1601px){
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    .fcimg{
+        width: 75%;
+        height: 75%;
+    }
+    .toty {
+        width: 75%;
+        height: 75%;
+    }
+    .totymens{
+        width: 75%;
+        height: 75%;
+    }
+    .totywomens{
+        width: 75%;
+        height: 75%;
+    }
+    footer .cpt{
+        margin-top: 100px;
+        text-align: right;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+
+
